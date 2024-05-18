@@ -1,4 +1,4 @@
-#### Домашнее задание №2. Добавляем EF Core с базой данных на SQLite и CRUD-API для основных сущностей.
+### Домашнее задание №2. Добавляем EF Core с базой данных на SQLite и CRUD-API для основных сущностей.
 
 #### 1. Добавить Entity Framework Core в DataAccess проект и сделать реализацию IRepository в виде EfRepository, которая будет работать с DataContext Entity Framework.
 
