@@ -450,7 +450,9 @@ public class PromocodesController
 #### 8. В качестве дополнительного задания реализовать две миграции: начальную миграцию и миграцию с изменением любого поля на выбор, в этом случае удаление на каждый запуск уже не должно происходить
 
 Добавил начальную миграцию Initial:
+```cmd
 dotnet ef migrations add Initial --startup-project ../Otus.Teaching.PromoCodeFactory.WebHost/
+```
 
 Добавил номер телефона в Eployee и сделал соответсвующую миграцию миграцию EmployeePhone:
 dotnet ef migrations add EmployeePhone --startup-project ../Otus.Teaching.PromoCodeFactory.WebHost/
