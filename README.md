@@ -455,7 +455,7 @@ dotnet ef migrations add Initial --startup-project ../Otus.Teaching.PromoCodeFac
 ```
 
 Добавил номер телефона в Eployee и сделал соответсвующую миграцию миграцию EmployeePhone:
+```cmd
 dotnet ef migrations add EmployeePhone --startup-project ../Otus.Teaching.PromoCodeFactory.WebHost/
-
-
+```
 

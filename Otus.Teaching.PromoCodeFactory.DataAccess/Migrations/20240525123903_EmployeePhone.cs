@@ -36,7 +36,7 @@ namespace Otus.Teaching.PromoCodeFactory.DataAccess.Migrations
                 keyColumn: "Id",
                 keyValue: new Guid("cb98e283-fcb0-4baa-8541-39ffe9a3fe38"),
                 columns: new[] { "BeginDate", "EndDate" },
-                values: new object[] { new DateTime(2024, 5, 25, 15, 1, 17, 275, DateTimeKind.Local).AddTicks(1707), new DateTime(2024, 6, 8, 15, 1, 17, 275, DateTimeKind.Local).AddTicks(1720) });
+                values: new object[] { new DateTime(2024, 5, 25, 15, 39, 3, 79, DateTimeKind.Local).AddTicks(1682), new DateTime(2024, 6, 8, 15, 39, 3, 79, DateTimeKind.Local).AddTicks(1693) });
         }
 
         /// <inheritdoc />

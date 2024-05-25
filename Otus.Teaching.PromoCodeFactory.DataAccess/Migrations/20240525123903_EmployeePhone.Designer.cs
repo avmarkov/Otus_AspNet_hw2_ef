@@ -11,7 +11,7 @@ using Otus.Teaching.PromoCodeFactory.DataAccess.DataContext;
 namespace Otus.Teaching.PromoCodeFactory.DataAccess.Migrations
 {
     [DbContext(typeof(DataBaseContext))]
-    [Migration("20240525120117_EmployeePhone")]
+    [Migration("20240525123903_EmployeePhone")]
     partial class EmployeePhone
     {
         /// <inheritdoc />
@@ -262,10 +262,10 @@ namespace Otus.Teaching.PromoCodeFactory.DataAccess.Migrations
                         new
                         {
                             Id = new Guid("cb98e283-fcb0-4baa-8541-39ffe9a3fe38"),
-                            BeginDate = new DateTime(2024, 5, 25, 15, 1, 17, 275, DateTimeKind.Local).AddTicks(1707),
+                            BeginDate = new DateTime(2024, 5, 25, 15, 39, 3, 79, DateTimeKind.Local).AddTicks(1682),
                             Code = "TOY20",
                             CustomerId = new Guid("a6c8c6b1-4349-45b0-ab31-244740aaf0f0"),
-                            EndDate = new DateTime(2024, 6, 8, 15, 1, 17, 275, DateTimeKind.Local).AddTicks(1720),
+                            EndDate = new DateTime(2024, 6, 8, 15, 39, 3, 79, DateTimeKind.Local).AddTicks(1693),
                             PartnerName = "GameLand",
                             PreferenceId = new Guid("76324c47-68d2-472d-abb8-33cfa8cc0c84"),
                             ServiceInfo = "Скидка 20% на игрушки"
